@@ -3,5 +3,6 @@ module.exports = {
 	description: 'Beep!',
 	execute(message) {
 		message.channel.send('Boop.');
+		console.log('Ping command triggered.');
 	},
 };
