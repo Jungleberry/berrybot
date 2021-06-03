@@ -20,7 +20,7 @@ for (const folder of commandFolders) {
 
 // Start bot functions below
 client.once('ready', () => {
-	console.log('Ready!'); // When bot = ready status, log 'Ready!'
+	console.log('Berrybot is online'); // When bot = ready status, log 'Berrybot is online'
 });
 
 // Message listener
